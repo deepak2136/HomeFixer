@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:clickable="true"
+        android:id="@+id/offer_image"
+        android:layout_height="175sp"
+        android:layout_margin="10sp"
+        android:layout_width="match_parent" />
+</RelativeLayout>

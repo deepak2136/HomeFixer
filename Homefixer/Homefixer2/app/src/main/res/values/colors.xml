@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary" >#1A5276</color>
+    <color name="colorPrimaryDark">#1A5276</color>
+    <color name="colorAccent">#1A5276</color>
+
+    <color name="header">#3f51b5</color>
+    <color name="card">#bbdefb</color>
+    <color name="back">#c5cae9</color>
+    <color name="confirm">#004d40</color>
+    <color  name="cancel">#ff3322</color>
+    <color name="lay">#c5cae9</color>
+    <color name="email">#ff3322</color>
+    <color name="call">#34bf49</color>
+</resources>

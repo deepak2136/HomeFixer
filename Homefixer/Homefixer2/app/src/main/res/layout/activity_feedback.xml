@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6sp"
+    card_view:cardCornerRadius="1dp"
+    card_view:cardElevation="5dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.homefixer.homefixer.Feedback">
+
+        <EditText
+            android:id="@+id/FB_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:text="viral94chudasama@gmail.com" />
+
+        <EditText
+            android:id="@+id/FB_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="FeedBack Subject" />
+
+        <EditText
+            android:id="@+id/FB_feedback"
+            android:layout_width="match_parent"
+            android:lines="8"
+            android:layout_height="wrap_content"
+            android:hint="Enter your FeedBack" />
+
+        <Button
+            android:id="@+id/FB_submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:background="#1A5276"
+            />
+
+
+
+
+        <Button
+            android:id="@+id/FB_home"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Go Home"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:background="#1A5276"/>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
